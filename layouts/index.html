@@ -49,7 +49,7 @@
 {{ $media := site.Data.media }}
 {{ $hasResearch := or $papers $books $reports }}
 
-{{ $published := where $papers "status" "published" }}
+{{ $published := where $papers "status" "in" (slice "published" "forthcoming") }}
 {{ $working := where $papers "status" "working paper" }}
 {{ $underReview := where $papers "status" "under review" }}
 {{ $dissertation := where $papers "status" "phd dissertation" }}
