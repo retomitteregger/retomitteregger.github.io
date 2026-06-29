@@ -1,0 +1,17 @@
+{{/* Renders a single publication row. Expects dict with title, authors, year, venue, link, status (optional) */}}
+<li class="paper-item">
+  <p class="paper-title">
+    {{ if .link }}
+    <a href="{{ .link }}" target="_blank" rel="noopener noreferrer">{{ .title }}</a>
+    {{ else if .pdf }}
+    <a href="{{ .pdf | relURL }}">{{ .title }}</a>
+    {{ else }}
+    {{ .title }}
+    {{ end }}
+    {{ with .status }}
+    <span class="status-badge">{{ . }}</span>
+    {{ end }}
+  </p>
+  <p class="paper-meta">{{ if .authors }}{{ delimit .authors ", " }}{{ end }}{{ with .year }}{{ if . }}, {{ . }}{{ end }}{{ end }}{{ with .venue }} · <em>{{ . }}</em>{{ end }}</p>
+  {{ with .abstract }}<p class="paper-abstract">{{ . }}</p>{{ end }}
+</li>

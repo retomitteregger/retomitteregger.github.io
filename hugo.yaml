@@ -1,0 +1,48 @@
+baseURL: "https://retomitteregger.github.io/"
+title: "Reto Mitteregger"
+languageCode: en-us
+
+params:
+  description: "Postdoctoral Researcher, Department of Social Sciences, Humboldt-Universität zu Berlin"
+  author: "Reto Mitteregger"
+  email: "reto.mitteregger@hu-berlin.de"
+  affiliation_line1: "Postdoctoral Researcher"
+  affiliation_line2: "Department of Social Sciences"
+  affiliation_line3: "Humboldt-Universität zu Berlin"
+  photo: "/images/photo.jpg"
+  office: "Universitätsstraße 3B, 10117 Berlin"
+  mailing_address: ""
+  social:
+    google_scholar: "https://scholar.google.com/citations?user=r3zpyu0AAAAJ"
+    bluesky: "https://bsky.app/profile/indubioproreto.bsky.social"
+    linkedin: "https://www.linkedin.com/in/reto-mitteregger-72331a265/"
+  research_interests:
+    - "Political sociology"
+    - "Voting behavior"
+    - "Generational politics"
+    - "Political parties"
+    - "Age-period-cohort analysis"
+    - "Western European party systems"
+
+menu:
+  main:
+    - name: Publications
+      url: "/#publications"
+      weight: 10
+    - name: Working Papers
+      url: "/#working-papers"
+      weight: 15
+    - name: Teaching
+      url: "/#teaching"
+      weight: 20
+    - name: CV
+      url: "/files/cv.pdf"
+      weight: 25
+    - name: Contact
+      url: "/#contact"
+      weight: 30
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

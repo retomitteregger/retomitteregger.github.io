@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  {{ partial "nav.html" . }}
+  <main id="main-content">
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+  <script>
+    (function () {
+      // Dropdown nav toggle
+      var toggle = document.querySelector('.nav-toggle');
+      var menu = document.querySelector('.nav-menu');
+      if (toggle && menu) {
+        toggle.addEventListener('click', function (e) {
+          e.stopPropagation();
+          var open = menu.classList.toggle('is-open');
+          toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+        });
+        menu.querySelectorAll('a').forEach(function (link) {
+          link.addEventListener('click', function () {
+            menu.classList.remove('is-open');
+            toggle.setAttribute('aria-expanded', 'false');
+          });
+        });
+        document.addEventListener('click', function (e) {
+          if (!menu.contains(e.target) && e.target !== toggle) {
+            menu.classList.remove('is-open');
+            toggle.setAttribute('aria-expanded', 'false');
+          }
+        });
+      }
+
+      // Auto-open collapsible <details> when its anchor is targeted via a nav link
+      function openTargetDetails() {
+        var hash = window.location.hash;
+        if (!hash) return;
+        var el = document.querySelector(hash);
+        if (el && el.tagName === 'DETAILS') {
+          el.open = true;
+          setTimeout(function () { el.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 50);
+        }
+      }
+      openTargetDetails();
+      window.addEventListener('hashchange', openTargetDetails);
+    })();
+  </script>
+</body>
+</html>
