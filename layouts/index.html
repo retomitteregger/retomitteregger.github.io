@@ -109,7 +109,12 @@
     <section class="panel-section">
       <h2 class="section-label">Media appearances</h2>
       <ul class="media-list">
-        {{ range $media }}<li>{{ .outlet }}</li>{{ end }}
+        {{ range $media }}
+        <li class="media-item">
+          <span class="media-outlet">{{ .outlet }}:</span>
+          {{ if .link }}<a href="{{ .link }}" target="_blank" rel="noopener noreferrer">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}
+        </li>
+        {{ end }}
       </ul>
     </section>
     {{ end }}

@@ -1,12 +1,47 @@
 - outlet: "Al Jazeera"
-- outlet: "Domani"
+  title: "Far-right AfD and socialist left win over young Germans, election reveals"
+  link: "https://www.aljazeera.com/news/2025/2/25/how-afd-the-left-won-the-german-youth-vote"
+
 - outlet: "Denknetz"
+  title: "Denknetz Zeitung Nr. 13"
+  link: "https://www.denknetz.ch/wp-content/uploads/2023/04/DN_Zeitung_013.pdf"
+
+- outlet: "Domani"
+  title: "«Ciò che è radicale diventa virale», perché i giovani in Europa e nel mondo piace l'ultradestra"
+  link: "https://www.editorialedomani.it/politica/mondo/perche-giovani-amano-estrema-destra-radicale-diventa-virale-europa-mondo-q7xbd9cl"
+
 - outlet: "El Diario"
+  title: "El odio no crece en toda Europa: por qué se desploma la extrema derecha en algunos países"
+  link: "https://www.eldiario.es/internacional/odio-no-crece-europa-desploma-extrema-derecha-paises_1_11437162.html"
+
 - outlet: "Der Freitag"
+  title: "Mythen zu AfD & Rechtsruck: Sind junge Männer, Arbeiter und Ostdeutsche schuld?"
+  link: "https://www.freitag.de/autoren/sebastian-baehr/mythen-zu-afd-rechtsruck-sind-junge-maenner-arbeiter-und-ostdeutsche-schuld"
+
 - outlet: "Le Temps"
+  title: "La conquête vert'libérale est partie de Zurich"
+  link: "https://www.letemps.ch/suisse/suisse-alemanique/conquete-vertliberale-partie-zurich"
+
 - outlet: "NZZ"
+  title: "Gleichstellungskampf trotz Krisen: Setzt sich Frauenlobby durch?"
+  link: "https://www.nzz.ch/schweiz/die-einsame-empoerung-der-einst-starken-frauenallianz-ld.1832562"
+
 - outlet: "NZZ am Sonntag"
+  title: "Bevölkerungswachstum: Bald gibt es 8 Milliarden Menschen"
+  link: "https://www.nzz.ch/gesellschaft/bevoelkerungswachstum-bald-gibt-es-8-milliarden-menschen-ld.1779726"
+
 - outlet: "Republik"
+  title: "Wie politikfaul sind die Jungen tatsächlich?"
+  link: "https://www.republik.ch/2026/06/17/wie-politikfaul-sind-die-jungen-tatsaechlich"
+
 - outlet: "SRF"
+  title: "Nachfolge von Sommaruga – Schadet der Knatsch ums weibliche Bundesratsticket der SP?"
+  link: "https://www.srf.ch/news/schweiz/nachfolge-von-sommaruga-schadet-der-knatsch-ums-weibliche-bundesratsticket-der-sp"
+
 - outlet: "TVP"
+  title: "How to get more young Europeans involved in politics?"
+  link: "https://www.youtube.com/watch?v=zAM443FQI4g"
+
 - outlet: "WOZ"
+  title: "Luzerner Wahlen: Die Konkordanz kehrt zurück"
+  link: "https://www.woz.ch/2320/luzerner-wahlen/die-konkordanz-kehrt-zurueck/!CJYE9ZQZDA2M"
