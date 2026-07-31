@@ -29,6 +29,9 @@ menu:
     - name: Publications
       url: "/#publications"
       weight: 10
+    - name: Reports
+      url: "/#reports"
+      weight: 12
     - name: Working Papers
       url: "/#working-papers"
       weight: 15
