@@ -43,6 +43,32 @@
       window.addEventListener('popstate', function () {
         activate(window.location.hash || '#about');
       });
+
+      // Dropdown menu
+      var menuBtn = document.querySelector('.header-menu-btn');
+      var dropdown = document.querySelector('.header-dropdown');
+      if (menuBtn && dropdown) {
+        menuBtn.addEventListener('click', function (e) {
+          e.stopPropagation();
+          var open = dropdown.classList.toggle('open');
+          menuBtn.setAttribute('aria-expanded', open);
+        });
+        dropdown.querySelectorAll('a[href^="#"]').forEach(function (a) {
+          a.addEventListener('click', function (e) {
+            e.preventDefault();
+            var hash = this.getAttribute('href');
+            activate(hash);
+            history.pushState(null, '', hash);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            dropdown.classList.remove('open');
+            menuBtn.setAttribute('aria-expanded', false);
+          });
+        });
+        document.addEventListener('click', function () {
+          dropdown.classList.remove('open');
+          menuBtn.setAttribute('aria-expanded', false);
+        });
+      }
     })();
   </script>
 </body>

@@ -1,5 +1,20 @@
 <header class="site-header">
   <div class="nav-inner">
     <a class="site-brand" href="{{ "/" | relURL }}">{{ .Site.Params.author }}</a>
+    <div class="header-menu">
+      <button class="header-menu-btn" aria-haspopup="true" aria-expanded="false" aria-label="Navigation menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <ul class="header-dropdown" role="menu">
+        <li role="none"><a href="#about" role="menuitem">About</a></li>
+        <li role="none"><a href="#publications" role="menuitem">Publications</a></li>
+        <li role="none"><a href="#working-papers" role="menuitem">Working Papers</a></li>
+        <li role="none"><a href="#teaching" role="menuitem">Teaching</a></li>
+        <li role="none"><a href="#reports-media" role="menuitem">Reports &amp; Media</a></li>
+        <li role="none"><a href="#contact" role="menuitem">Contact</a></li>
+        <li role="none" class="dropdown-divider"></li>
+        <li role="none"><a href="{{ "/files/cv.pdf" | relURL }}" target="_blank" rel="noopener noreferrer" role="menuitem">CV (PDF) ↗</a></li>
+      </ul>
+    </div>
   </div>
 </header>
