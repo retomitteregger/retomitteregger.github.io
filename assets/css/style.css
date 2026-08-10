@@ -433,6 +433,37 @@ main { margin: 0; padding: 0; }
   margin-right: 0.2rem;
 }
 
+/* ===== ABSTRACT ===== */
+.abstract-toggle {
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: 3px;
+  color: var(--color-muted);
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  padding: 0.1em 0.5em;
+  text-transform: uppercase;
+  transition: color 0.15s, border-color 0.15s;
+  vertical-align: middle;
+}
+.abstract-toggle:hover,
+.abstract-toggle[aria-expanded="true"] {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.paper-abstract {
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: var(--color-muted);
+  margin: 0.6rem 0 0;
+  padding-left: 0.75rem;
+  border-left: 2px solid var(--color-border);
+}
+
 /* ===== FOOTER ===== */
 .site-footer {
   border-top: 1px solid var(--color-border);

@@ -69,6 +69,16 @@
           menuBtn.setAttribute('aria-expanded', false);
         });
       }
+
+      // Abstract toggles
+      document.querySelectorAll('.abstract-toggle').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var abstract = this.closest('.paper-item').querySelector('.paper-abstract');
+          var expanded = this.getAttribute('aria-expanded') === 'true';
+          this.setAttribute('aria-expanded', !expanded);
+          abstract.hidden = expanded;
+        });
+      });
     })();
   </script>
 </body>

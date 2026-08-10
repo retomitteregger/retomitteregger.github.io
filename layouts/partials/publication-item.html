@@ -1,4 +1,4 @@
-{{/* Renders a single publication row. Expects dict with title, authors, year, venue, link, status (optional) */}}
+{{/* Renders a single publication row. Expects dict with title, authors, year, venue, link, status, abstract (optional) */}}
 <li class="paper-item">
   <p class="paper-title">
     {{ if .link }}
@@ -8,10 +8,10 @@
     {{ else }}
     {{ .title }}
     {{ end }}
-    {{ with .status }}
-    <span class="status-badge">{{ . }}</span>
+    {{ if and (eq .status "forthcoming") }}
+    <span class="status-badge">forthcoming</span>
     {{ end }}
   </p>
-  <p class="paper-meta">{{ if .authors }}{{ delimit .authors ", " }}{{ end }}{{ with .year }}{{ if . }}, {{ . }}{{ end }}{{ end }}{{ with .venue }} · <em>{{ . }}</em>{{ end }}</p>
-  {{ with .abstract }}<p class="paper-abstract">{{ . }}</p>{{ end }}
+  <p class="paper-meta">{{ if .authors }}{{ delimit .authors ", " }}{{ end }}{{ with .year }}{{ if . }}, {{ . }}{{ end }}{{ end }}{{ with .venue }} · <em>{{ . }}</em>{{ end }}{{ with .abstract }} · <button class="abstract-toggle" aria-expanded="false">Abstract</button>{{ end }}</p>
+  {{ with .abstract }}<p class="paper-abstract" hidden>{{ . }}</p>{{ end }}
 </li>
