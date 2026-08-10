@@ -56,6 +56,7 @@
   venue: "Electoral Studies"
   link: "https://www.sciencedirect.com/science/article/pii/S0261379424000027"
   job_market_paper: false
+  abstract: "Across Western Europe, the electoral base of formerly dominating parties on the left and the right has been eroding in the past decades. In contrast, both far-right parties and green parties could expand their vote share in numerous elections all over Western Europe - especially among younger voters. Still, those transformations in multiparty systems remain understudied: Are those electoral differences representing a cohort effect within the left and within the right bloc? This study uses survey data from ten Western European countries spanning over 60 years to test for cohort differences in political blocs. By applying multilevel logistic regression models and generalized additive mixed models, the analysis yields generational differences within the left and the right, with more recent cohorts being more likely to vote for greens than other left-wing and more likely to prefer the far-right over other right-wing parties. Those results shed light on the cohort-driven electoral realignment in Western Europe."
 
 - title: "Cohorts and neighbors: Urban-rural conflict along the age gradient"
   authors: ["Lukas Haffert", "Reto Mitteregger"]
@@ -64,6 +65,7 @@
   venue: "Electoral Studies"
   link: "https://www.sciencedirect.com/science/article/pii/S0261379423001270"
   job_market_paper: false
+  abstract: "The 2021 German Federal Election saw an increasing variation in voting behavior between both age groups and geographic groups. This paper brings these developments together and argues that the urban-rural divide is much bigger among younger than among older voters. We combine data from the German Longitudinal Election Study with original survey data and introduce the number of freelance artists at the ZIP code level as a new measure of urbanity. Using this data, we show that the urban-rural age divide concerns cultural attitudes as well as the propensity to vote. While the Greens mainly attract young voters in cities, the AfD performed well among young rural voters, particularly in Eastern Germany. At the same time, the differences between the young and the old are larger in cities than in the countryside. These results suggest that the importance of the urban-rural divide is likely to increase in future elections."
 
 - title: "Life-cycle differences between cohorts in Switzerland"
   authors: ["Lena Ajdacic", "Matthias Enggist", "Reto Mitteregger"]
