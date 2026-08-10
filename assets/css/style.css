@@ -74,10 +74,10 @@ p:last-child { margin-bottom: 0; }
   font-weight: 600;
   font-size: 0.9375rem;
   letter-spacing: 0.01em;
-  color: #fff;
+  color: #d0d8e0;
   text-decoration: none;
 }
-.site-brand:hover, .site-brand:focus-visible { color: rgba(255,255,255,0.85); text-decoration: none; }
+.site-brand:hover, .site-brand:focus-visible { color: #fff; text-decoration: none; }
 
 .header-menu { position: relative; margin-left: auto; }
 
