@@ -1,3 +1,11 @@
+- outlet: "Financial Times"
+  title: "Who is voting for the far-right Alternative for Germany?"
+  link: "https://www.ft.com/content/ef6d5693-a5b0-445a-8f30-d514d50651e1"
+
+- outlet: "Watson"
+  title: "AfD-Sieg in Sachsen-Anhalt: Warum die SVP von 40 Prozent weit weg ist"
+  link: "https://www.watson.ch/schweiz/interview/598382030-afd-sieg-in-sachsen-anhalt-warum-die-svp-von-40-prozent-weit-weg-ist"
+
 - outlet: "Al Jazeera"
   title: "Far-right AfD and socialist left win over young Germans, election reveals"
   link: "https://www.aljazeera.com/news/2025/2/25/how-afd-the-left-won-the-german-youth-vote"
