@@ -77,7 +77,8 @@ p:last-child { margin-bottom: 0; }
   color: #ffffff;
   text-decoration: none;
 }
-.site-brand:hover, .site-brand:focus-visible { color: #fff; text-decoration: none; }
+.site-brand:visited { color: #ffffff; }
+.site-brand:hover, .site-brand:focus-visible { color: rgba(255,255,255,0.85); text-decoration: none; }
 
 .header-menu { position: relative; margin-left: auto; }
 
