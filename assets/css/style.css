@@ -192,15 +192,21 @@ p:last-child { margin-bottom: 0; }
     color: rgba(255, 255, 255, 0.55);
     border-bottom-color: transparent;
   }
+  .tab-link:visited {
+    color: rgba(255, 255, 255, 0.55);
+  }
   .tab-link:hover, .tab-link:focus-visible {
     color: rgba(255, 255, 255, 0.9);
   }
-  .tab-link.active {
+  .tab-link.active, .tab-link.active:visited {
     color: #fff;
     border-bottom-color: rgba(255, 255, 255, 0.75);
     font-weight: 600;
   }
   .tab-cv {
+    color: rgba(255, 255, 255, 0.55);
+  }
+  .tab-cv:visited {
     color: rgba(255, 255, 255, 0.55);
   }
   .tab-cv:hover {
