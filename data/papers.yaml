@@ -70,6 +70,14 @@
   job_market_paper: false
   abstract: "The 2021 German Federal Election saw an increasing variation in voting behavior between both age groups and geographic groups. This paper brings these developments together and argues that the urban-rural divide is much bigger among younger than among older voters. We combine data from the German Longitudinal Election Study with original survey data and introduce the number of freelance artists at the ZIP code level as a new measure of urbanity. Using this data, we show that the urban-rural age divide concerns cultural attitudes as well as the propensity to vote. While the Greens mainly attract young voters in cities, the AfD performed well among young rural voters, particularly in Eastern Germany. At the same time, the differences between the young and the old are larger in cities than in the countryside. These results suggest that the importance of the urban-rural divide is likely to increase in future elections."
 
+- title: "Age and Generations – Effects on Voting Behavior"
+  authors: ["Reto Mitteregger", "Liran Harsgor"]
+  year: ""
+  status: "under review"
+  venue: "Book Chapter"
+  link: ""
+  job_market_paper: false
+
 - title: "Life-cycle differences between cohorts in Switzerland"
   authors: ["Lena Ajdacic", "Matthias Enggist", "Reto Mitteregger"]
   year: ""
